@@ -4,8 +4,8 @@ import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 're
 const deepstream = require('deepstream.io-client-js');
  const DeepstreamMixin = require('deepstream.io-tools-react');
  const client = deepstream('localhost:6020').login({
-  username: "parisa.carlborg@icentrex.com",
-   password: "08kk2fHR"
+  username: "myemail@sth.com",
+   password: "hashPassword"
  }, function (x) {
     console.log(x);
  });
