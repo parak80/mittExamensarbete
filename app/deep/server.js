@@ -5,7 +5,7 @@ var server = new DeepstreamServer({
 	auth: {
 		type: "http",
 		options: {
-            endpointUrl: "https://rtcapi.icentrex.se/api/cli/smspage/auth",
+            endpointUrl: "https://your auth url",
             permittedStatusCodes: [ 200 ],
             requestTimeout: 2000
         }
